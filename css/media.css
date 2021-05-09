@@ -1,0 +1,220 @@
+@media (max-width: 1400px) {
+    .grid-container img, .grid-container2 img, .grid-container3 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .grid-container2 {
+        padding: 30px 0 !important;
+    }
+    .grid-container3 {
+        padding: 0px 0 30px !important;
+    }
+    .pad {
+        padding: 0 10px;
+    }
+
+    /* trends */
+    .img-bg img {
+        width: 100% !important;
+    }
+}
+
+@media(max-width:1200px){
+    /* trends */
+    .content p {
+        font-size: 14px;
+    }
+    .content h1 {
+        font-size: 35px;
+    }
+    .content h5 {
+        font-size: 25px;
+    }
+    .carousel-indicators [data-bs-target] {
+        height: 10px;
+        width: 10px;
+        line-height: 10px;
+        border: 0;
+    }
+}
+
+
+@media (max-width: 992px){
+
+    .grid-container3 {
+        grid-template-columns: auto auto auto;
+    }
+    .pic-10 {
+        display: none;
+    }
+    .swatch h4{
+        font-size: 16px;
+    }
+    .seasons h1{
+        font-size: 27px;
+    }
+    .content p {
+        margin-bottom: 1rem;
+        margin-top: 1em;
+        width: 90%;
+        font-size: 12px;
+    }
+    .content a {
+        background: #51abc8;
+        padding: 3px 24px;
+    }
+    .content h1 {
+        font-size: 27px;
+    }
+    .content h5 {
+        font-size: 20px;
+    }
+    .content {
+    margin: 10px 0;
+    }
+
+    /* footer */
+    footer .col-auto {
+        padding-right: 0;
+    }
+    footer .btn{
+        padding: 5px 10px;
+    }
+
+    /* navbar */
+    .navbar-nav .ms-3{
+        margin: 0 !important;
+    }
+    .display-none-search{
+        display: none;
+    }
+    .navbar-collapse {
+        background: rgba(255, 255, 255, 0.515);
+    }
+}
+
+@media (max-width: 768px){
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+        gap: 20px;
+        justify-content: space-evenly;
+        align-content: space-evenly;
+    }
+    .pic-2 {
+        grid-row-end: auto;
+    }
+    .swatch p{
+        font-size: 14px;
+    }
+    .swatch h4{
+        font-size: 12px;
+    }
+    .swatch h5 {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .seasons h1 {
+        font-size: 18px;
+    }
+    .spring {
+        background: #ecf3e8;
+        padding: 100px 0px 30px;
+        text-align: center !important;
+    }
+    .summer {
+        padding: 100px 0px 30px;
+        background: #f1e5e5;
+    }
+    .autumn {
+        padding: 100px 0px 30px;
+        background: #f6f3e6;
+    }
+    .winter {
+        background: #ecf4f5;
+        padding: 100px 0px 30px;
+        text-align: center !important;
+    }
+
+    /* trends */
+    .content p {
+        width: 100%;
+    }
+
+    /* footer  */
+    footer .nav {
+        justify-content: center;
+    }
+    footer h5 {
+        text-align: center;
+    }
+    footer .social {
+        text-align: center;
+    }
+    footer .nav li {
+        margin: 0 25px;
+    }
+    footer .social li {
+        margin: 0 25px;
+    }
+    footer form{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 576px){
+    .masonry img{
+        width: 224px;
+        height: 306px;
+    }
+    .grid-container {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+    }
+    .grid-container2 {
+        grid-template-columns: auto;
+    }
+    .grid-container3 {
+        grid-template-columns: auto;
+    }
+    .pic-10 {
+        display: block;
+    }
+    .load-more {
+        background: #51abc8;
+        color: #ffffff;
+        width: 224px;
+        margin: 0px auto;
+        border: 2px solid #51abc8;
+        border-radius: 3px;
+    }
+    .load-more:hover {
+        background: transparent;
+        color: #51abc8;
+        border: 2px solid #51abc8;
+    }
+    .trends {
+        padding: 0px 0 30px;
+    }
+    .content p {
+        width: 100%;
+    }
+    .content::after {
+        right: 10%;
+        font-size: 50px;
+    }
+    .content {
+        margin: 25px 0;
+        text-align: center;
+    }
+
+    /* footer */
+    footer .nav li {
+        margin: 0 25px;
+    }
+    footer .social li {
+        margin: 0 25px;
+    }
+}
